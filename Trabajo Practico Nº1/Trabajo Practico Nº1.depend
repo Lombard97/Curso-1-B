@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1535980919 source:c:\users\alejandro lombard\desktop\trabajo practico nº1\mylibrary.c
+
+1535981407 source:c:\users\alejandro lombard\desktop\trabajo practico nº1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"MyLibrary.h"
+
+1535980899 c:\users\alejandro lombard\desktop\trabajo practico nº1\mylibrary.h
+
