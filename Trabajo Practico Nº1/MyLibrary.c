@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "MyLibrary.h"
+#include "myLibrary.h"
 
 float getFloat(char texto[])
 {
