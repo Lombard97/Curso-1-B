@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1536794677 source:c:\users\alejandro lombard\desktop\ejercicio de cadenas\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
