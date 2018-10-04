@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1538657392 source:c:\users\alumno\desktop\gerflix wea\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Usuario.h"
+	"Serie.h"
+
+1538657162 c:\users\alumno\desktop\gerflix wea\usuario.h
+
+1538657162 c:\users\alumno\desktop\gerflix wea\serie.h
+
+1538657162 source:c:\users\alumno\desktop\gerflix wea\serie.c
+	<stdio.h>
+	<stdlib.h>
+	"Serie.h"
+	<string.h>
+
+1538657162 source:c:\users\alumno\desktop\gerflix wea\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Usuario.h"
+
+1538657417 source:c:\users\alumno\desktop\gerflix wea\usuarios-series.c
+	"Usuarios-Series.h"
+
+1538657162 c:\users\alumno\desktop\gerflix wea\usuarios-series.h
+	"Serie.h"
+	"Usuario.h"
+
+1538663485 source:c:\users\alumno\desktop\gerflix-master\gerflix wea\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Usuario.h"
+	"Serie.h"
+
+1538657859 c:\users\alumno\desktop\gerflix-master\gerflix wea\usuario.h
+
+1538657859 c:\users\alumno\desktop\gerflix-master\gerflix wea\serie.h
+
+1538657859 source:c:\users\alumno\desktop\gerflix-master\gerflix wea\serie.c
+	<stdio.h>
+	<stdlib.h>
+	"Serie.h"
+	<string.h>
+
+1538657859 source:c:\users\alumno\desktop\gerflix-master\gerflix wea\usuario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Usuario.h"
+
+1538665467 source:c:\users\alumno\desktop\gerflix-master\gerflix wea\usuarios-series.c
+	<stdio.h>
+	<stdlib.h>
+	"Usuarios-Series.h"
+
+1538665425 c:\users\alumno\desktop\gerflix-master\gerflix wea\usuarios-series.h
+	"Serie.h"
+	"Usuario.h"
+
