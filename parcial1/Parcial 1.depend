@@ -12,3 +12,28 @@
 	<stdlib.h>
 	"funciones.h"
 
+1539852527 source:c:\users\alejandro lombard\desktop\curso-1-b-master\parcial1\funciones.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"string.h"
+	<ctype.h>
+
+1539314552 c:\users\alejandro lombard\desktop\curso-1-b-master\parcial1\funciones.h
+
+1539852420 source:c:\users\alejandro lombard\desktop\curso-1-b-master\parcial1\main.c
+	<stdio.h>
+	<stdlib.h>
+	"funciones.h"
+	"automotores.h"
+
+1539852319 source:c:\users\alejandro lombard\desktop\curso-1-b-master\parcial1\automotores.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"automotores.h"
+	"funciones.h"
+
+1539323453 c:\users\alejandro lombard\desktop\curso-1-b-master\parcial1\automotores.h
+
