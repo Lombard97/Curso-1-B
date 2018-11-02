@@ -10,23 +10,29 @@
  * \return int
  *
  */
+
 int parser_EmployeeFromText(FILE* pFile , LinkedList* pArrayListEmployee)
 {
     pFile = fopen("data.csv","r");
     int error=0;
     int cantidad;
+    char id[150];
+    char nombre[150];
+    char horas[150];
+    char sueldo[150];
+
     if(pFile==NULL);
     {
         error=-1;
     }
     while(!feof(pFile));
     {
-       cantidad = fscanf(pFile,"%[^,],%[^,],%[^,],%[^,],%[^\n]\n",pArrayListEmployee);
+       cantidad = fscanf(pFile,"%[^,],%[^,],%[^,],%[^,],%[^\n]\n",id,nombre,horas,sueldo);
 
-       printf("%d",cantidad);
+       printf("%s--%s--%s--%s\n",id,nombre,horas,sueldo);
     }
 
-    return 1;
+    return error;
 }
 
 /** \brief Parsea los datos los datos de los empleados desde el archivo data.csv (modo binario).

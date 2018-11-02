@@ -27,23 +27,18 @@ int main()
     int error;
     int option = 0;
     int i;
-    /*printf("OPCIONES\n1-Cargar datos desde el archivo\n2-Cargar datos desde el archivo (modo binario)\n3-Dar de alta un empleado\n4-Salir");
-    scanf("%d",&option);*/
 
     LinkedList* listaEmpleados = ll_newLinkedList();
 
-    /*error = parser_EmployeeFromBinary(pData,listaEmpleados);*/
-
-    cantidad = fscanf(pData,"%[^,],%[^,],%[^,],%[^,],%[^\n]\n",;
-
-    printf("%d",cantidad);
-
+    printf("OPCIONES\n1-Cargar datos desde el archivo\n2-Cargar datos desde el archivo (modo binario)\n3-Dar de alta un empleado\n4-Salir\n");
+    scanf("%d",&option);
 
     do{
         switch(option)
         {
             case 1:
-                controller_loadFromText("data.csv",listaEmpleados);
+             //   error = parser_EmployeeFromText(pData,listaEmpleados);
+              //  ontroller_loadFromText("data.csv",listaEmpleados);
                 break;
             case 2:
                 break;
@@ -51,6 +46,7 @@ int main()
                 break;
             case 4:
                 break;
+
         }
     }while(option != 4);
 
